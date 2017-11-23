@@ -23,7 +23,7 @@ function truhinometriaB(N) {
     return B;
 }
 function rez() {
-    return Math.sqrt(Math.pow(A, 2) + Math.pow(B, 2));
+    return 0.4*(Math.sqrt(Math.pow(A, 2) + Math.pow(B, 2)));
 }
 for (N = 1; N <= 9; N++) {
     document.write(N + '<br>');
